@@ -1,0 +1,146 @@
+25-09-07.19:32:38.017 [main            ] INFO  WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v3.0.9) : https://github.com/apache/dubbo-spring-boot-project
+ :: Dubbo (v3.0.9) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+25-09-07.19:32:38.030 [background-preinit] INFO  Version                - HV000001: Hibernate Validator 8.0.1.Final
+25-09-07.19:32:38.042 [main            ] INFO  Application            - Starting Application using Java 21.0.6 with PID 93041 (/Users/milton/Documents/ideaproject/ai-agent-station-personal/ai-agent-station-personal-app/target/classes started by milton in /Users/milton/Documents/ideaproject/ai-agent-station-personal)
+25-09-07.19:32:38.042 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-09-07.19:32:38.344 [main            ] INFO  FrameworkModel         -  [DUBBO] Reset global default framework from null to Dubbo Framework[1], dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.344 [main            ] INFO  FrameworkModel         -  [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.365 [main            ] INFO  ApplicationModel       -  [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.365 [main            ] INFO  ScopeModel             -  [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.380 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.380 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.405 [main            ] INFO  FrameworkModel         -  [DUBBO] Reset global default application from null to Dubbo Application[1.1](unknown), dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.405 [main            ] INFO  ApplicationModel       -  [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.405 [main            ] INFO  ScopeModel             -  [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.407 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.407 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.412 [main            ] INFO  DubboSpringInitializer -  [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.412 [main            ] INFO  ScopeModel             -  [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.413 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.414 [main            ] INFO  DubboSpringInitializer -  [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.414 [main            ] INFO  DubboSpringInitializer -  [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@4b2d44bc, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:38.426 [main            ] ERROR SpringApplication      - Application run failed
+java.lang.NoClassDefFoundError: org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessorAdapter
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.apache.dubbo.config.spring.util.DubboBeanUtils.registerCommonBeans(DubboBeanUtils.java:74)
+	at org.apache.dubbo.config.spring.context.DubboSpringInitializer.initContext(DubboSpringInitializer.java:143)
+	at org.apache.dubbo.config.spring.context.DubboSpringInitializer.initialize(DubboSpringInitializer.java:63)
+	at org.apache.dubbo.config.spring.context.annotation.DubboConfigConfigurationRegistrar.registerBeanDefinitions(DubboConfigConfigurationRegistrar.java:41)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:372)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:371)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at cn.javaguy.Application.main(Application.java:14)
+Caused by: java.lang.ClassNotFoundException: org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 41 common frames omitted
+25-09-07.19:32:56.398 [main            ] INFO  WelcomeLogoApplicationListener - 
+
+ :: Dubbo Spring Boot (v3.0.9) : https://github.com/apache/dubbo-spring-boot-project
+ :: Dubbo (v3.0.9) : https://github.com/apache/dubbo
+ :: Discuss group : dev@dubbo.apache.org
+
+25-09-07.19:32:56.406 [background-preinit] INFO  Version                - HV000001: Hibernate Validator 8.0.1.Final
+25-09-07.19:32:56.420 [main            ] INFO  Application            - Starting Application using Java 21.0.6 with PID 93221 (/Users/milton/Documents/ideaproject/ai-agent-station-personal/ai-agent-station-personal-app/target/classes started by milton in /Users/milton/Documents/ideaproject/ai-agent-station-personal)
+25-09-07.19:32:56.420 [main            ] INFO  Application            - The following 1 profile is active: "dev"
+25-09-07.19:32:56.772 [main            ] INFO  FrameworkModel         -  [DUBBO] Reset global default framework from null to Dubbo Framework[1], dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.772 [main            ] INFO  FrameworkModel         -  [DUBBO] Dubbo Framework[1] is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.786 [main            ] INFO  ApplicationModel       -  [DUBBO] Dubbo Application[1.0](unknown) is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.787 [main            ] INFO  ScopeModel             -  [DUBBO] Dubbo Module[1.0.0] is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.801 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.801 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.818 [main            ] INFO  FrameworkModel         -  [DUBBO] Reset global default application from null to Dubbo Application[1.1](unknown), dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.818 [main            ] INFO  ApplicationModel       -  [DUBBO] Dubbo Application[1.1](unknown) is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.818 [main            ] INFO  ScopeModel             -  [DUBBO] Dubbo Module[1.1.0] is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.820 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.822 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.826 [main            ] INFO  DubboSpringInitializer -  [DUBBO] Use default application: Dubbo Application[1.1](unknown), dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.827 [main            ] INFO  ScopeModel             -  [DUBBO] Dubbo Module[1.1.1] is created, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.828 [main            ] INFO  AbstractConfigManager  -  [DUBBO] Config settings: {dubbo.config.mode=STRICT, dubbo.config.ignore-duplicated-interface=false}, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.829 [main            ] INFO  DubboSpringInitializer -  [DUBBO] Use default module model of target application: Dubbo Module[1.1.1], dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.829 [main            ] INFO  DubboSpringInitializer -  [DUBBO] Bind Dubbo Module[1.1.1] to spring container: org.springframework.beans.factory.support.DefaultListableBeanFactory@4b2d44bc, dubbo version: 3.0.9, current host: 192.168.3.112
+25-09-07.19:32:56.836 [main            ] ERROR SpringApplication      - Application run failed
+java.lang.NoClassDefFoundError: org/springframework/beans/factory/config/InstantiationAwareBeanPostProcessorAdapter
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at java.base/java.lang.ClassLoader.defineClass1(Native Method)
+	at java.base/java.lang.ClassLoader.defineClass(ClassLoader.java:1027)
+	at java.base/java.security.SecureClassLoader.defineClass(SecureClassLoader.java:150)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.defineClass(BuiltinClassLoader.java:862)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.findClassOnClassPathOrNull(BuiltinClassLoader.java:760)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClassOrNull(BuiltinClassLoader.java:681)
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:639)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	at org.apache.dubbo.config.spring.util.DubboBeanUtils.registerCommonBeans(DubboBeanUtils.java:74)
+	at org.apache.dubbo.config.spring.context.DubboSpringInitializer.initContext(DubboSpringInitializer.java:143)
+	at org.apache.dubbo.config.spring.context.DubboSpringInitializer.initialize(DubboSpringInitializer.java:63)
+	at org.apache.dubbo.config.spring.context.annotation.DubboConfigConfigurationRegistrar.registerBeanDefinitions(DubboConfigConfigurationRegistrar.java:41)
+	at org.springframework.context.annotation.ImportBeanDefinitionRegistrar.registerBeanDefinitions(ImportBeanDefinitionRegistrar.java:86)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.lambda$loadBeanDefinitionsFromRegistrars$1(ConfigurationClassBeanDefinitionReader.java:372)
+	at java.base/java.util.LinkedHashMap.forEach(LinkedHashMap.java:986)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsFromRegistrars(ConfigurationClassBeanDefinitionReader.java:371)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitionsForConfigurationClass(ConfigurationClassBeanDefinitionReader.java:148)
+	at org.springframework.context.annotation.ConfigurationClassBeanDefinitionReader.loadBeanDefinitions(ConfigurationClassBeanDefinitionReader.java:120)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.processConfigBeanDefinitions(ConfigurationClassPostProcessor.java:427)
+	at org.springframework.context.annotation.ConfigurationClassPostProcessor.postProcessBeanDefinitionRegistry(ConfigurationClassPostProcessor.java:287)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanDefinitionRegistryPostProcessors(PostProcessorRegistrationDelegate.java:344)
+	at org.springframework.context.support.PostProcessorRegistrationDelegate.invokeBeanFactoryPostProcessors(PostProcessorRegistrationDelegate.java:115)
+	at org.springframework.context.support.AbstractApplicationContext.invokeBeanFactoryPostProcessors(AbstractApplicationContext.java:771)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:589)
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:737)
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:315)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1309)
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1298)
+	at cn.javaguy.Application.main(Application.java:14)
+Caused by: java.lang.ClassNotFoundException: org.springframework.beans.factory.config.InstantiationAwareBeanPostProcessorAdapter
+	at java.base/jdk.internal.loader.BuiltinClassLoader.loadClass(BuiltinClassLoader.java:641)
+	at java.base/jdk.internal.loader.ClassLoaders$AppClassLoader.loadClass(ClassLoaders.java:188)
+	at java.base/java.lang.ClassLoader.loadClass(ClassLoader.java:526)
+	... 41 common frames omitted
